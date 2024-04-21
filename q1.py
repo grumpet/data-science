@@ -9,6 +9,6 @@ y = np.arange(0,101,10)
 print(y)
 
 #rearange the first 10 elements of y into a 5x2 array
-y =y[:-1]
+y =y[:10]
 z = y.reshape(5,2)
 print(z)
