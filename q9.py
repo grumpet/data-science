@@ -7,3 +7,4 @@ print(data['age'].max())
 #c
 print(data['income'].min())
 #d
+print(len(data[(data['income']>16000) & (data['state_of_res']=='Washington')]))
